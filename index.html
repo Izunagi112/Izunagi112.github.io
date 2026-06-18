@@ -1,61 +1,140 @@
-```html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>後藤結のポートフォリオ</title>
+
+    <style>
+        body{
+            font-family: "Yu Gothic", "Hiragino Sans", sans-serif;
+            margin: 40px 60px;
+            color: #000;
+            line-height: 1.8;
+        }
+
+        h1{
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        .divider{
+            border-top: 3px solid #000;
+            margin: 20px 0 30px 0;
+        }
+
+        .school{
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        h2{
+            font-size: 38px;
+            margin: 0 0 20px 0;
+            font-weight: bold;
+        }
+
+        .section{
+            margin-top: 20px;
+        }
+
+        .main-list{
+            font-size: 24px;
+        }
+
+        .main-list > li{
+            margin-bottom: 10px;
+        }
+
+        .sub-list{
+            list-style-type: circle;
+            margin-left: 40px;
+            font-size: 22px;
+        }
+
+        .skill-list{
+            font-size: 24px;
+        }
+
+        .skill-list li{
+            margin-bottom: 5px;
+        }
+
+        .qualification{
+            font-size: 22px;
+        }
+    </style>
+</head>
+
 <body>
 
-    <header>
-        <h1>後藤 結（ごとう ゆい）</h1>
-        <p>西日本工業大学 デザイン学部 情報デザイン学科 3年生</p>
-    </header>
+    <h1>後藤 結(ごとう ゆい)</h1>
 
-    <section>
-        <h2>Unity (2D・3D)</h2>
-        <ul>
-            <li>授業課題 2Dゲーム</li>
-            <li>授業課題 3Dゲーム</li>
-        </ul>
-    </section>
+    <div class="divider"></div>
 
-    <section>
-        <h2>Autodesk Maya（モデリング・アニメーション）</h2>
-        <ul>
-            <li>授業課題「cola」</li>
-            <li>授業課題 アニメーション「ピタゴラスイッチ」</li>
-            <li>授業課題「3Dキャラクター」</li>
-        </ul>
-    </section>
+    <p class="school">
+        西日本工業大学 デザイン学部 情報デザイン学科 3年生
+    </p>
 
-    <section>
-        <h2>Adobe Creative Cloud</h2>
-        <ul>
-            <li>Illustrator</li>
-            <li>Photoshop</li>
-            <li>Premiere Pro</li>
-            <li>After Effects</li>
-        </ul>
-    </section>
+    <h2>アプリケーション</h2>
 
-    <section>
-        <h2>Autodesk Fusion（モデリング）</h2>
-        <ul>
-            <li>授業課題「ランプ」</li>
-            <li>授業課題「スピードシェイプ」</li>
-        </ul>
-    </section>
+    <div class="divider"></div>
 
-    <section>
-        <h2>プログラミング言語</h2>
-        <ul>
-            <li>C#（Unity）</li>
-            <li>JavaScript（p5.js, Node.js）</li>
-        </ul>
-    </section>
+    <ul class="main-list">
+        <li>
+            Unity (2D・3D)
+            <ul class="sub-list">
+                <li>授業課題2Dゲーム</li>
+                <li>授業課題3Dゲーム</li>
+            </ul>
+        </li>
 
-    <section>
-        <h2>資格</h2>
-        <ul>
-            <li>CGクリエイター検定 ベーシック（CG-ARTS）</li>
-            <li>普通自動車第一種運転免許（AT限定）</li>
-        </ul>
-    </section>
+        <li>
+            Autodesk Maya(モデリング・アニメーション)
+            <ul class="sub-list">
+                <li>授業課題 アニメーション「ピタゴラスイッチ」</li>
+                <li>授業課題 アニメーション「Cinnamoroll」</li>
+                <li>授業課題「Cola」</li>
+            </ul>
+        </li>
+
+        <li>
+            Autodesk Fusion(モデリング)
+            <ul class="sub-list">
+                <li>授業課題「ランプ」</li>
+            </ul>
+        </li>
+
+        <li>
+            Adobe Creative Cloud(Illustrator, Photoshop, Premiere Pro, After Effects)
+        </li>
+
+        <li>Figma</li>
+    </ul>
+
+    <h2>プログラミング言語</h2>
+
+    <div class="divider"></div>
+
+    <ul class="skill-list">
+        <li>C#(Unity)</li>
+        <li>JavaScript(p5.js, node.js)</li>
+        <li>Swift</li>
+        <li>Python3</li>
+    </ul>
+
+    <h2>資格</h2>
+
+    <div class="divider"></div>
+
+    <ul class="qualification">
+        <li>
+            公益財団法人画像情報教育振興協会（CG-ARTS）主催：CGクリエイター検定 ベーシック
+        </li>
+        <li>
+            普通自動車第一種運転免許(AT限定)
+        </li>
+    </ul>
 
 </body>
-```
+</html>
